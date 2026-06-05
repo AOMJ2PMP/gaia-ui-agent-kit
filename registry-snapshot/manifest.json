@@ -1,0 +1,756 @@
+{
+  "generatedAt": "2026-06-05T14:36:23.703Z",
+  "itemCount": 39,
+  "sources": {
+    "docs": "https://ui.heygaia.io/docs",
+    "llms": "https://ui.heygaia.io/llms.txt",
+    "registry": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry.json",
+    "rawBase": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main",
+    "itemBase": "https://ui.heygaia.io/r",
+    "componentDocsBase": "https://ui.heygaia.io/docs/components"
+  },
+  "components": [
+    {
+      "name": "area-chart",
+      "title": "Area Chart",
+      "description": "A filled area chart with gradient fills for cumulative trends and stacked totals.",
+      "dependencies": [
+        "recharts"
+      ],
+      "registryDependencies": [
+        "chart",
+        "card"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/area-chart.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/area-chart.tsx"
+        }
+      ]
+    },
+    {
+      "name": "author-tooltip",
+      "title": "Author Tooltip",
+      "description": "An interactive avatar with tooltip showing author information and social links.",
+      "dependencies": [],
+      "registryDependencies": [
+        "icons"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/author-tooltip.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/author-tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "name": "bar-chart",
+      "title": "Bar Chart",
+      "description": "A bar chart for comparisons and distributions, with stacked, horizontal, and grouped variants.",
+      "dependencies": [
+        "recharts"
+      ],
+      "registryDependencies": [
+        "chart",
+        "card"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/bar-chart.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/bar-chart.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-event-card",
+      "title": "Calendar Event Card",
+      "description": "A styled card for displaying calendar events with color indicators, status states, and action buttons.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/calendar-event-card.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/calendar-event-card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "chat-demo",
+      "title": "Chat Demo",
+      "description": "Reusable platform-aware chat preview with pixel-accurate bubbles, headers and composers for iMessage, WhatsApp, Slack, Discord and Telegram. Designed to drop inside the iPhone Mockup.",
+      "dependencies": [],
+      "registryDependencies": [
+        "iphone-mockup"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/chat-demo.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/chat-demo.tsx"
+        }
+      ]
+    },
+    {
+      "name": "code-block",
+      "title": "Code Block",
+      "description": "A syntax-highlighted code block with copy and download functionality, perfect for displaying code snippets.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/code-block.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/code-block.tsx"
+        }
+      ]
+    },
+    {
+      "name": "component-preview-tooltip",
+      "title": "Component Preview Tooltip",
+      "description": "A hover tooltip that shows a live preview of any component.",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/component-preview-tooltip.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/component-preview-tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "name": "composer",
+      "title": "Composer",
+      "description": "A chat message input component with file attachments, auto-growing textarea, and tool integration support.",
+      "dependencies": [],
+      "registryDependencies": [
+        "icons",
+        "file-preview",
+        "slash-command-dropdown"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/composer.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/composer.tsx"
+        }
+      ]
+    },
+    {
+      "name": "email-compose-card",
+      "title": "Email Compose Card",
+      "description": "An AI-powered email composition card with recipient validation, smart inputs, and beautiful styling.",
+      "dependencies": [],
+      "registryDependencies": [
+        "icons"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/email-compose-card.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/email-compose-card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "file-dropzone",
+      "title": "File Dropzone",
+      "description": "A drag-and-drop file upload zone with preview, validation, and file management.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/file-dropzone.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/file-dropzone.tsx"
+        }
+      ]
+    },
+    {
+      "name": "file-preview",
+      "title": "File Preview",
+      "description": "Display uploaded files with smart type detection, file icons, image thumbnails, and upload progress.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/file-preview.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/file-preview.tsx"
+        }
+      ]
+    },
+    {
+      "name": "gauge-chart",
+      "title": "Gauge Chart",
+      "description": "A radial gauge for a single value with thresholds, plus text and stacked variants.",
+      "dependencies": [
+        "recharts"
+      ],
+      "registryDependencies": [
+        "chart"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/gauge-chart.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/gauge-chart.tsx"
+        }
+      ]
+    },
+    {
+      "name": "github-stars-button",
+      "title": "GitHub Stars Button",
+      "description": "A beautiful button that displays your GitHub repository's star count with real-time data fetching.",
+      "dependencies": [
+        "@radix-ui/react-icons"
+      ],
+      "registryDependencies": [
+        "raised-button"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/github-stars-button.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/github-stars-button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "goal-card",
+      "title": "Goal Card",
+      "description": "A card component for displaying goal progress with status indicators and step tracking.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/goal-card.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/goal-card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "holo-card",
+      "title": "Holo Card",
+      "description": "An interactive 3D holographic profile card with tilt effects, sparkle animations, and flip functionality.",
+      "dependencies": [
+        "react-parallax-tilt"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/holo-card.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/holo-card.tsx"
+        },
+        {
+          "path": "registry/new-york/ui/holo-card.css",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/holo-card.css"
+        }
+      ]
+    },
+    {
+      "name": "icons",
+      "title": "Icons",
+      "description": "Hugeicons wrapper for all components. Uses free icons by default - upgrade to Pro by changing imports.",
+      "dependencies": [
+        "@hugeicons/react",
+        "@hugeicons/core-free-icons"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/icons.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/icons.tsx"
+        }
+      ]
+    },
+    {
+      "name": "iphone-mockup",
+      "title": "iPhone Mockup",
+      "description": "Pixel-perfect iPhone Pro mockup with Dynamic Island, side buttons, status bar and home indicator. Geometry matched to orchid.ai (390 x 815 chassis, 56/46 px corner radii, 120 x 37 Dynamic Island).",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/iphone-mockup.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/iphone-mockup.tsx"
+        }
+      ]
+    },
+    {
+      "name": "knowledge-graph",
+      "title": "Knowledge Graph",
+      "description": "An interactive D3.js-powered knowledge graph visualization with zoom, pan, drag, tooltips, and export functionality.",
+      "dependencies": [
+        "d3"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/knowledge-graph.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/knowledge-graph.tsx"
+        }
+      ]
+    },
+    {
+      "name": "line-chart",
+      "title": "Line Chart",
+      "description": "A line chart for trends over time with optional dots, labels, and multiple series.",
+      "dependencies": [
+        "recharts"
+      ],
+      "registryDependencies": [
+        "chart",
+        "card"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/line-chart.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/line-chart.tsx"
+        }
+      ]
+    },
+    {
+      "name": "link-preview",
+      "title": "Link Preview",
+      "description": "An interactive link component with rich preview tooltip showing website metadata like title, description, and images.",
+      "dependencies": [],
+      "registryDependencies": [
+        "icons"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/link-preview.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/link-preview.tsx"
+        }
+      ]
+    },
+    {
+      "name": "message-bubble",
+      "title": "iOS Message Bubbles",
+      "description": "Beautiful iOS-style message bubbles with authentic iMessage appearance, message grouping, and tail effects.",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/message-bubble.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/message-bubble.tsx"
+        },
+        {
+          "path": "registry/new-york/ui/message-bubble.css",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/message-bubble.css"
+        }
+      ]
+    },
+    {
+      "name": "model-selector",
+      "title": "Model Selector",
+      "description": "A dropdown selector for choosing AI models with provider information and pro badges.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/model-selector.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/model-selector.tsx"
+        }
+      ]
+    },
+    {
+      "name": "navbar-menu",
+      "title": "Navbar Menu",
+      "description": "A beautiful animated dropdown menu for navigation with support for icons, descriptions, and custom layouts.",
+      "dependencies": [
+        "motion",
+        "next"
+      ],
+      "registryDependencies": [
+        "raised-button"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/navbar-menu.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/navbar-menu.tsx"
+        }
+      ]
+    },
+    {
+      "name": "nested-menu",
+      "title": "Nested Menu",
+      "description": "A hover-activated nested menu component for multi-level navigation with smooth animations.",
+      "dependencies": [
+        "@radix-ui/react-popover"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/nested-menu.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/nested-menu.tsx"
+        }
+      ]
+    },
+    {
+      "name": "notification-card",
+      "title": "Notification Card",
+      "description": "An enhanced notification card with action buttons, read/unread states, and timestamp display.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/notification-card.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/notification-card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "pie-chart",
+      "title": "Pie Chart",
+      "description": "A pie chart for proportions with donut, label, and legend display modes.",
+      "dependencies": [
+        "recharts"
+      ],
+      "registryDependencies": [
+        "chart",
+        "card"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/pie-chart.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/pie-chart.tsx"
+        }
+      ]
+    },
+    {
+      "name": "pricing-card",
+      "title": "Pricing Card",
+      "description": "A beautiful glassmorphism pricing card component with nested card design, feature lists, and customizable accent colors.",
+      "dependencies": [],
+      "registryDependencies": [
+        "icons"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/pricing-card.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/pricing-card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "radar-chart",
+      "title": "Radar Chart",
+      "description": "A radar chart for multi-axis comparisons across several dimensions.",
+      "dependencies": [
+        "recharts"
+      ],
+      "registryDependencies": [
+        "chart",
+        "card"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/radar-chart.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/radar-chart.tsx"
+        }
+      ]
+    },
+    {
+      "name": "raised-button",
+      "title": "Raised Button",
+      "description": "A beautiful 3D raised button with customizable colors and dynamic text contrast.",
+      "dependencies": [
+        "class-variance-authority"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/raised-button.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/raised-button.tsx"
+        },
+        {
+          "path": "lib/utils/colorUtils.ts",
+          "type": "registry:lib",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/lib/utils/colorUtils.ts"
+        }
+      ]
+    },
+    {
+      "name": "scatter-chart",
+      "title": "Scatter Chart",
+      "description": "A scatter chart for exploring correlation between two numeric variables.",
+      "dependencies": [
+        "recharts"
+      ],
+      "registryDependencies": [
+        "chart",
+        "card"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/scatter-chart.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/scatter-chart.tsx"
+        }
+      ]
+    },
+    {
+      "name": "search-results-tabs",
+      "title": "Search Results Tabs",
+      "description": "A beautiful component for displaying search results with web pages, images, and news in an organized, interactive layout.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "registryDependencies": [
+        "icons"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/search-results-tabs.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/search-results-tabs.tsx"
+        }
+      ]
+    },
+    {
+      "name": "slash-command-dropdown",
+      "title": "Slash Command Dropdown",
+      "description": "A slash command dropdown for selecting tools and actions with categorization and search.",
+      "dependencies": [],
+      "registryDependencies": [
+        "icons"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/slash-command-dropdown.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/slash-command-dropdown.tsx"
+        },
+        {
+          "path": "lib/utils/tool-icons.tsx",
+          "type": "registry:lib",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/lib/utils/tool-icons.tsx"
+        }
+      ]
+    },
+    {
+      "name": "stat-row",
+      "title": "Stat Row",
+      "description": "A compact KPI tile with optional trend indicator for dashboards and summary panels.",
+      "dependencies": [
+        "@hugeicons/react",
+        "@hugeicons/core-free-icons"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/stat-row.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/stat-row.tsx"
+        }
+      ]
+    },
+    {
+      "name": "todo-item",
+      "title": "Todo Item",
+      "description": "An interactive todo item with priority colors, due dates, labels, and subtask support.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/todo-item.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/todo-item.tsx"
+        }
+      ]
+    },
+    {
+      "name": "tool-calls-section",
+      "title": "Tool Calls Section",
+      "description": "An expandable section showing AI agent tool usage with icons, inputs, and outputs.",
+      "dependencies": [],
+      "registryDependencies": [
+        "icons"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/tool-calls-section.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/tool-calls-section.tsx"
+        },
+        {
+          "path": "registry/new-york/ui/compact-markdown.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/compact-markdown.tsx"
+        },
+        {
+          "path": "lib/utils/tool-icons.tsx",
+          "type": "registry:lib",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/lib/utils/tool-icons.tsx"
+        }
+      ]
+    },
+    {
+      "name": "twitter-card",
+      "title": "Twitter Card",
+      "description": "A Twitter/X-style post card with author info, engagement metrics, and media support.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/twitter-card.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/twitter-card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "wave-spinner",
+      "title": "Wave Spinner",
+      "description": "A beautiful animated loading spinner with wave effects, multiple patterns, colors, and highly customizable animations.",
+      "dependencies": [
+        "class-variance-authority"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/wave-spinner.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/wave-spinner.tsx"
+        },
+        {
+          "path": "registry/new-york/ui/wave-spinner.css",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/wave-spinner.css"
+        }
+      ]
+    },
+    {
+      "name": "weather-card",
+      "title": "Weather Card",
+      "description": "A beautiful, interactive weather card component with forecast, detailed metrics, and multiple weather conditions support.",
+      "dependencies": [],
+      "registryDependencies": [
+        "icons"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york/ui/weather-card.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/weather-card.tsx"
+        },
+        {
+          "path": "registry/new-york/ui/weather-detail-item.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/weather-detail-item.tsx"
+        },
+        {
+          "path": "registry/new-york/ui/weather-icons.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/weather-icons.tsx"
+        }
+      ]
+    },
+    {
+      "name": "workflow-card",
+      "title": "Workflow Card",
+      "description": "A card for displaying workflow automations with rotated tool icons, execution stats, and action buttons.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/ui/workflow-card.tsx",
+          "type": "registry:ui",
+          "hasContent": true,
+          "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/workflow-card.tsx"
+        }
+      ]
+    }
+  ]
+}

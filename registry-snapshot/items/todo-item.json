@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "todo-item",
+  "type": "registry:ui",
+  "title": "Todo Item",
+  "description": "An interactive todo item with priority colors, due dates, labels, and subtask support.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/new-york/ui/todo-item.tsx",
+      "type": "registry:ui",
+      "content": "\"use client\";\n\nexport type TodoPriority = \"high\" | \"medium\" | \"low\" | \"none\";\n\nexport interface TodoLabel {\n\tid: string;\n\tname: string;\n\tcolor?: string;\n}\n\nexport interface TodoSubtask {\n\tid: string;\n\ttitle: string;\n\tcompleted: boolean;\n}\n\nexport interface TodoProject {\n\tid: string;\n\tname: string;\n\tcolor?: string;\n}\n\nexport interface TodoItemProps {\n\tid: string;\n\ttitle: string;\n\tdescription?: string;\n\tcompleted: boolean;\n\tpriority: TodoPriority;\n\tdueDate?: string | Date;\n\tlabels?: TodoLabel[];\n\tsubtasks?: TodoSubtask[];\n\tproject?: TodoProject;\n\tonToggleComplete?: (id: string, completed: boolean) => void;\n\tonClick?: (id: string) => void;\n\tisSelected?: boolean;\n\tclassName?: string;\n}\n\nexport const priorityConfig = {\n\thigh: {\n\t\ttextColor: \"text-red-500 dark:text-red-400\",\n\t\tbgColor: \"bg-red-500/10 dark:bg-red-400/10\",\n\t\tborderColor: \"border-red-500\",\n\t},\n\tmedium: {\n\t\ttextColor: \"text-yellow-600 dark:text-yellow-400\",\n\t\tbgColor: \"bg-yellow-500/10 dark:bg-yellow-400/10\",\n\t\tborderColor: \"border-yellow-500\",\n\t},\n\tlow: {\n\t\ttextColor: \"text-blue-500 dark:text-blue-400\",\n\t\tbgColor: \"bg-sky-500/10 dark:bg-sky-400/10\",\n\t\tborderColor: \"border-blue-500\",\n\t},\n\tnone: {\n\t\ttextColor: \"text-zinc-500 dark:text-zinc-500\",\n\t\tbgColor: \"bg-zinc-500/10 dark:bg-zinc-500/10\",\n\t\tborderColor: \"border-zinc-400 dark:border-zinc-500\",\n\t},\n} as const;\n",
+      "sourceUrl": "https://raw.githubusercontent.com/theexperiencecompany/gaia-ui/main/registry/new-york/ui/todo-item.tsx"
+    }
+  ],
+  "sourceUrls": {
+    "docs": "https://ui.heygaia.io/docs/components/todo-item",
+    "registryItem": "https://ui.heygaia.io/r/todo-item.json"
+  }
+}

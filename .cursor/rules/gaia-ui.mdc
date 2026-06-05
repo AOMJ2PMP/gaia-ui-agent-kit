@@ -1,0 +1,32 @@
+---
+description: Use GAIA UI components and recipes from this repository.
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+# GAIA UI Usage
+
+Read `AGENTS.md` first. This repo is an agent-readable GAIA UI reference pack with official registry snapshots, generated component catalog docs, recipes, and a live Next.js demo.
+
+Prefer GAIA UI components over rebuilding equivalents:
+
+- `Composer`, `SlashCommandDropdown`, `FilePreview`, `ToolCallsSection` for AI chat and agent execution.
+- `MessageBubble` for chat histories.
+- `WorkflowCard`, `NotificationCard`, `CalendarEventCard`, `TodoItem` patterns for automation/productivity flows.
+- `ModelSelector`, `StatRow`, chart components for settings and dashboards.
+- `RaisedButton`, `PricingCard` for CTAs and subscription surfaces.
+
+Before installing or editing a component, inspect:
+
+- `components-catalog/<component-name>.md`
+- `registry-snapshot/items/<component-name>.json`
+- `registry-snapshot/source/**`
+
+Install from the official registry when needed:
+
+```bash
+npx shadcn@latest add https://ui.heygaia.io/r/<component-name>.json
+```
+
+Keep the app on Next.js App Router, TypeScript, Tailwind CSS v4, and the `@/*` alias.
