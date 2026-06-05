@@ -1,0 +1,4 @@
+interface:
+  display_name: "GAIA UI"
+  short_description: "Build apps with GAIA UI components"
+  default_prompt: "Use $gaia-ui to build a Next.js assistant workspace with GAIA UI components."

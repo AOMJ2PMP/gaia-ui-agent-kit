@@ -7,6 +7,7 @@ This repo contains:
 - Official GAIA UI registry snapshots with source fallback.
 - Generated per-component Markdown catalog.
 - Agent instructions for Codex, Claude Code, and Cursor.
+- An installable Codex skill in `codex-skill/gaia-ui`.
 - Reusable recipes for assistant workspaces, workflow dashboards, and landing pages.
 - A runnable Next.js demo that composes GAIA UI components into a practical agent workspace.
 
@@ -33,11 +34,33 @@ pnpm lint
 pnpm build
 ```
 
+## Install The Codex Skill
+
+This machine already has the skill installed at:
+
+```text
+/Users/luxlu/.codex/skills/gaia-ui
+```
+
+To install it elsewhere:
+
+```bash
+mkdir -p ~/.codex/skills
+cp -R codex-skill/gaia-ui ~/.codex/skills/gaia-ui
+```
+
+Then start a new Codex thread and invoke:
+
+```text
+Use $gaia-ui to build a GAIA-style assistant workspace.
+```
+
 ## Key Files
 
 - `AGENTS.md`: main coding-agent instructions.
 - `CLAUDE.md`: Claude Code pointer.
 - `.cursor/rules/gaia-ui.mdc`: Cursor rule.
+- `codex-skill/gaia-ui/SKILL.md`: Codex skill entrypoint.
 - `scripts/sync-gaia-ui.mjs`: sync official GAIA UI component metadata and source.
 - `registry-snapshot/manifest.json`: captured component manifest.
 - `registry-snapshot/items/*.json`: per-component registry data.
